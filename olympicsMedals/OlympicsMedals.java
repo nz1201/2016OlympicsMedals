@@ -236,7 +236,6 @@ public class OlympicsMedals {
 		List<WebElement> nocCountries = driver.findElements(
 				By.xpath("//table[@class='wikitable sortable plainrowheaders jquery-tablesorter']//th/a"));
 
-		// ========================================================
 		List<WebElement> bronzeNum = driver.findElements(
 				By.xpath("//table[@class='wikitable sortable plainrowheaders " + "jquery-tablesorter']//tr/td[4]"));
 		List<String> listCountries = new ArrayList<>();
